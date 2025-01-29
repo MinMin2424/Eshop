@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk";
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4e0fa;
+}
+
+section {
+    width: 580px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 30px 40px;
+    text-align: center;
+    line-height: 50px;
+}
+
+section a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.562);
+}

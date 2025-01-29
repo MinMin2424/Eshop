@@ -1,0 +1,487 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Space Grotesk";
+}
+
+body {
+    background-color: #f4e0fa;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+@media print {
+    .header-main {
+        visibility: hidden;
+    }
+}
+
+/* ----- HEADER ----- */
+
+.mobile-menu-btn {
+    display: none;
+}
+
+.header-main {
+    width: 100%;
+    padding: 0 2%;
+    height: 100px;
+    background-color: #f1d1fa;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+/* ----- NAVIGATION ----- */
+
+.header-main nav {
+    display: flex;
+    width: 80%;
+}
+
+.header-main .logo img {
+    height: 100%;
+    align-self: center;
+    cursor: pointer;
+}
+
+.header-main ul {
+    height: 100%;
+    margin-left: 50px;
+    list-style: none;
+    display: flex;
+    align-self: center;
+}
+
+.header-main ul li {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    padding-top: 50px;
+}
+
+
+.header-main ul li a {
+    display: block;
+    padding: 0px 20px;
+    height: 50%;
+    font-size: 100%;
+    font-family: "Space Grotesk";
+    color: black;
+    cursor: pointer;
+    transition: all ease-in-out 100ms;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.header-main ul li a:hover {
+    color: rgb(145, 63, 145);
+    font-size: 140%;
+}
+
+/* ----- SOCIAL MEDIA ----- */
+
+.header-main .sm-links{
+    height: 60px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    padding: 40px 20px 0 20px;
+}
+
+.header-main .sm-links img {
+    height: 30px;
+    cursor: pointer;
+    align-self: center;
+    margin: 0 20px 0 20px;
+}
+
+.header-main .sm-links img:hover {
+    height: 40px;
+}
+
+.sm-links #upload {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* ----- MAIN CONTAINER ----- */
+
+.main-container {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    margin-top: 100px;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main-container img {
+    float: right;
+    height: 20vw;
+    width: 20vw;
+
+}
+
+.main-container p {
+    width: 100%;
+    font-family: "Space Grotesk";
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-left: 2%;
+    line-height: 50px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-container button {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    padding: 30px 50px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: "Space Grotesk";
+    border: 2px solid rgb(155, 65, 240);
+    border-radius: 10px;
+    background-color: #f1d1fa;
+    margin: 5% 30%;
+}
+
+.main-container button a {
+    text-decoration: none;
+    color: #333;
+}
+
+.main-container button:hover {
+    width: 380px;
+    font-size: 18px;
+    padding: 30px;
+}
+
+.main-container button img {
+    width: 20px;
+    height: 20px;
+}
+
+/* ----- BUTTON FOR GOING TO THE TOP OF THE PAGE ----- */
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    cursor: pointer;
+    padding: 15px;
+  }
+  
+  #myBtn:hover {
+    width: 60px;
+  }
+
+/* ----- HEART FOR LIKE ----- */
+
+.obleceni .heart-before,
+.obuv .heart-before,
+.tasky-a-doplnky .heart-before,
+.bydleni .heart-before,
+.deti .heart-before,
+.zabava .heart-before,
+.mazlicci .heart-before {
+    display: flex;
+    float: right;
+    margin-right: 18%;
+    width: 20px;
+}
+
+.obleceni .heart-before:hover,
+.obuv .heart-before:hover,
+.tasky-a-doplnky .heart-before:hover,
+.bydleni .heart-before:hover,
+.deti .heart-before:hover,
+.zabava .heart-before:hover,
+.mazlicci .heart-before:hover {
+    width: 25px;
+}
+
+.obleceni .heart-after,
+.obuv .heart-after,
+.tasky-a-doplnky .heart-after,
+.bydleni .heart-after,
+.deti .heart-after,
+.zabava .heart-after,
+.mazlicci .heart-after {
+    display: none;
+    float: right;
+    margin-right: 18%;
+    width: 20px;
+}
+
+.obleceni .heart-after:hover,
+.obuv .heart-after:hover,
+.tasky-a-doplnky .heart-after:hover,
+.bydleni .heart-after:hover,
+.deti .heart-after:hover,
+.zabava .heart-after:hover,
+.mazlicci .heart-after:hover {
+    width: 25px;
+}
+
+/* ----- ZBOZI ----- */
+
+.obleceni,
+.obuv,
+.tasky-a-doplnky,
+.bydleni,
+.deti,
+.zabava,
+.mazlicci {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.obleceni,
+.tasky-a-doplnky,
+.deti,
+.mazlicci {
+    background-color: rgb(238, 208, 245);
+}
+
+.obuv,
+.bydleni,
+.zabava {
+    background-color: none;
+}
+
+.obleceni .products,
+.obuv .products,
+.tasky-a-doplnky .products,
+.bydleni .products,
+.deti .products,
+.zabava .products,
+.mazlicci .products {
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-left: -10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.obleceni h2,
+.obuv h2,
+.tasky-a-doplnky h2,
+.bydleni h2,
+.deti h2,
+.zabava h2,
+.mazlicci h2 {
+    font-family: "Space Grotesk";
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.obleceni h2:hover,
+.obuv h2:hover,
+.tasky-a-doplnky h2:hover,
+.bydleni h2:hover,
+.deti h2:hover,
+.zabava h2:hover,
+.mazlicci h2:hover {
+    color: rgb(145, 63, 145);
+}
+
+.obleceni div,
+.obuv div,
+.tasky-a-doplnky div,
+.bydleni div,
+.deti div,
+.zabava div,
+.mazlicci div {
+    height: fit-content;
+    line-height: 40px;
+}
+
+.obleceni img,
+.obuv img,
+.tasky-a-doplnky img,
+.bydleni img,
+.deti img,
+.zabava img,
+.mazlicci img {
+    /* width: 80%; */
+    overflow: hidden;
+    display: flex;
+    margin-left: 28px;
+    margin-right: 28px;
+}
+
+.obleceni .products p,
+.obuv .products p,
+.tasky-a-doplnky .products p,
+.bydleni .products p,
+.deti .products p,
+.zabava .products p,
+.mazlicci .products p {
+    margin-left: 30px;
+}
+
+.obleceni a,
+.obuv a,
+.tasky-a-doplnky a,
+.bydleni a,
+.deti a,
+.zabava a,
+.mazlicci a {
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    font-family: "Space Grotesk";
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+.obleceni a:hover,
+.obuv a:hover,
+.tasky-a-doplnky a:hover,
+.bydleni a:hover,
+.deti a:hover,
+.zabava a:hover,
+.mazlicci a:hover {
+    font-size: 19px;
+    color: rgb(145, 63, 145);
+}
+
+/* ----- USER UPDATE ----- */
+
+.obleceni .user-update,
+.obuv .user-update,
+.tasky-a-doplnky .user-update,
+.bydleni .user-update,
+.deti .user-update,
+.zabava .user-update,
+.mazlicci .user-update {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+}
+
+.obleceni .user-update img,
+.obuv .user-update img,
+.tasky-a-doplnky .user-update img,
+.bydleni .user-update img,
+.deti .user-update img,
+.zabava .user-update img,
+.mazlicci .user-update img {
+    width: 25px;
+    height: 25px;
+    margin-bottom: 5px;
+}
+
+.obleceni .user-update p,
+.obuv .user-update p,
+.tasky-a-doplnky .user-update p,
+.bydleni .user-update p,
+.deti .user-update p,
+.zabava .user-update p,
+.mazlicci .user-update p {
+    margin-left: 5px;
+}
+
+/* ----- FOOTER ----- */
+
+footer {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    padding: 30px 100px;
+    font-family: "Space Grotesk";
+}
+
+footer img {
+    width: 50%;
+}
+
+footer .produkty-footer {
+    margin-right: 100px;
+}
+
+footer .produkty-footer h4,
+footer .informace-footer h4 {
+    font-size: 15px;
+    display: flex;
+    margin-bottom: 10px;
+    color: #6b6868;
+}
+
+footer .produkty-footer p,
+footer .informace-footer p {
+    margin-left: 10px;
+}
+
+footer .produkty-footer a,
+footer .informace-footer a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #6b6868;
+}
+
+footer .produkty-footer a:hover,
+footer .informace-footer a:hover {
+    font-size: 14px;
+    color: #5c5a5a;
+}
+
+.sm-links-footer {
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.ins-footer, .fb-footer {
+    width: 20px;
+    height: 20px;
+    padding-right: 20px;
+}
+
+.ins-footer img, .fb-footer img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.sm-links-footer .ins-footer:hover,
+.sm-links-footer .fb-footer:hover {
+    width: 30px;
+    height: 30px;
+}
+
+/* ----- CUSTOM SCROLLBAR ----- */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #efc9fa;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#642bff, #ff22e6);
+    border-radius: 10px;
+}

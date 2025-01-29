@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk";
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4e0fa;
+}
+
+.edit-form {
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    margin-top: 150px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.edit-form h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.edit-form .input-box {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.input-box label {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.edit-form :where(.input-box input) {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.edit-form .input-box input:focus {
+    background-color: #f6f0f8;
+}
+
+.edit-form .input-box {
+    position: relative;
+}
+
+.edit-form .column-form {
+    display: flex;
+    column-gap: 15px;
+}
+
+.edit-form input {
+    accent-color: #ebb5fc;
+}
+
+.edit-form #submit {
+    height: 55px;
+    width: 100%;
+    background-color: #f4e0fa;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    margin-top: 30px;
+    cursor: pointer;
+    font-weight: 400;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.edit-form #submit:hover {
+    background-color: #ebb5fc;
+}
+
+/* ERROR */
+.error {
+    border: 1px solid red;
+}

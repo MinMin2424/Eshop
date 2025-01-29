@@ -1,0 +1,179 @@
+body {
+    display: flex;
+    justify-content: center
+}
+
+.main-container-page {
+    width: 95%;
+    margin-top: 120px;
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);*/
+    border-radius: 20px;
+}
+
+.main-container-page .main-container-header {
+    display: flex;
+    height: 100px;
+}
+
+.main-container-page .welcome {
+    width: 70%;
+    padding-left: 10%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.main-container-page .welcome p {
+    font-size: 25px;
+}
+
+.main-container-page .welcome .user-image {
+    margin-left: 10px;
+}
+
+.main-container-page .logout {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container-page .logout a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.main-container-page .logout a:hover {
+    text-decoration: underline;
+    font-size: 21px;
+}
+
+.main-container-page .informace {
+    margin-left: 10%;
+    margin-top: 10px;
+}
+.main-container-page .informace a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.main-container-page .informace a:hover {
+    text-decoration: underline;
+}
+
+.main-container-page .informace p:first-child {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.main-container-page .informace .info {
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.main-container-page .informace a.info {
+    color: black;
+}
+
+.main-container-page .nahrane-produkty {
+    margin-left: 10%;
+    margin-top: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.main-container-page .nahrane-produkty .nadpis {
+    font-size: 18px;
+    height: fit-content;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* PRODUKTY */
+
+.produkt-container {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.produkt-container .produkt-img {
+    display: flex;
+    justify-content: center;
+}
+
+.produkt-container .produkt {
+    /* max-width: 210px;
+    max-height: 315px; */
+    margin: 10px 45px;
+}
+
+.produkt-container .produkt-popis {
+    width: 70%;
+    margin-left: 15%;
+    padding: 10px 0;
+}
+
+.produkt-container a {
+    width: 100%;
+    height: fit-content;
+    font-size: 18px;
+    font-family: "Space Grotesk";
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.produkt-container a:hover {
+    font-size: 19px;
+    color: rgb(145, 63, 145);
+}
+
+/* HEART OF LIKE*/
+
+.nahrane-produkty .heart-before {
+    display: flex;
+    float: right;
+    width: 20px;
+}
+
+.nahrane-produkty .heart-before:hover {
+    width: 25px;
+}
+
+.nahrane-produkty .heart-after {
+    display: none;
+    float: right;
+    width: 20px;
+}
+
+.nahrane-produkty .heart-after:hover {
+    width: 25px;
+}
+
+/* USER UPDATE */
+
+.nahrane-produkty .user-update {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+    margin-left: 45px;
+}
+
+.nahrane-produkty .user-update img {
+    width: 25px;
+    height: 25px;
+    margin-bottom: 5px;
+}
+
+.nahrane-produkty .user-update p {
+    margin-left: 5px;
+}

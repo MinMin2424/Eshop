@@ -1,0 +1,1124 @@
+/* HEADER FOR VERSION WITH MAX-WIDTH: 390PX */
+
+@media only screen and (max-width: 390px) {
+
+    .header-main {
+        display: none;
+    }
+
+    .mobile-menu-btn {
+        display: flex;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 200;
+        background-color: transparent;
+    }
+
+    .mobile-menu-btn img {
+        height: 80%;
+        align-self: center;
+    }
+
+    .header-main {
+        max-width: 1000px;
+        height: 100vh;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .header-main nav {
+        width: 100%;
+        height: 90%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: stretch;
+    }
+
+    .header-main .logo {
+        height: 30%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-main .logo img {
+        height: 60%;
+        align-self: center;
+    }
+
+    .header-main ul {
+        height: 70%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        flex-wrap: wrap;
+        flex-direction: column;
+        display: flex;
+        justify-items: center;
+    }
+
+    .header-main ul li {
+        display: flex;
+        align-items: center;
+        height: 40px;
+        padding-top: 0;
+    }
+
+    .header-main ul li a:hover {
+        font-size: 110%;
+    }
+
+    .header-main .sm-links {
+        width: 100%;
+        height: 10%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .user-info {
+        width: 110px;
+        padding: 5px 0;
+        border-radius: 10px;
+        position: fixed;
+        bottom: 120px;
+        right: 10px;
+    }
+
+    .user-info button {
+        width: 100px;
+        margin-left: 5px;
+        margin-bottom: 0;
+    }
+
+    .header-main .sm-links .ins,
+    .header-main .sm-links .fb {
+        display: flex;
+    }
+
+    .sm-links #upload {
+        padding-top: 8px;
+    }
+}
+
+/* INDEX.HTML FOR VERSION WITH MAX-WIDTH: 390PX */
+
+@media only screen and (max-width: 390px) {
+    * {
+        max-width: 390px;
+        overflow-x: hidden;
+    }
+
+    /* HEADER */
+
+    .header-main ul li {
+        height: 50px;
+        padding-top: 0;
+    }
+
+    .header-main ul li a:hover {
+        font-size: 120%;
+    }
+
+    /* MAIN CONTAINER */
+
+    .main-container {
+        margin-top: 20px;
+        align-items: center;
+    }
+
+
+    .main-container img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .main-container p {
+        max-width: 100%;
+        font-size: 16px;
+    }
+
+    .main-container button {
+        width: 200px;
+        font-size: 14px;
+        padding: 5px;
+        margin: 5% 25%;
+    }
+
+    /* ZBOZI */
+
+    .obleceni .products,
+    .obuv .products,
+    .tasky-a-doplnky .products,
+    .bydleni .products,
+    .deti .products,
+    .zabava .products,
+    .mazlicci .products {
+        border: none;
+        border-radius: 20px;
+        margin-bottom: 10px;
+        margin-left: -10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .obleceni .products img,
+    .obuv .products img,
+    .tasky-a-doplnky .products img,
+    .bydleni .products img,
+    .deti .products img,
+    .zabava .products img,
+    .mazlicci .products img {
+        margin-left: 28px;
+    }
+
+    .obleceni .products p,
+    .obuv .products p,
+    .tasky-a-doplnky .products p,
+    .bydleni .products p,
+    .deti .products p,
+    .zabava .products p,
+    .mazlicci .products p {
+        margin-left: 30px;
+        font-size: 16px;
+    }
+
+    .obleceni .heart-before,
+    .obuv .heart-before,
+    .tasky-a-doplnky .heart-before,
+    .bydleni .heart-before,
+    .deti .heart-before,
+    .zabava .heart-before,
+    .mazlicci .heart-before {
+        margin-right: 10%;
+    }
+
+    .obleceni .heart-after,
+    .obuv .heart-after,
+    .tasky-a-doplnky .heart-after,
+    .bydleni .heart-after,
+    .deti .heart-after,
+    .zabava .heart-after,
+    .mazlicci .heart-after {
+        margin-right: 10%;
+    }
+
+    /* FOOTER */
+
+    footer {
+        max-width: 390px;
+        padding: 30px;
+    }
+
+    footer .logo-footer {
+        width: 100px;
+    }
+
+    footer .logo-footer img {
+        width: 80px;
+    }
+
+    footer .produkty-footer {
+        margin-right: 10px;
+    }
+
+    footer .sm-links-footer {
+        display: none;
+    }
+
+    
+}
+
+/* PRODUKTY (obleceni.html, ...) FOR VERSION WITH MAX-WIDTH: 390PX */
+
+@media only screen and (max-width: 390px) {
+
+    .container {
+        margin-top: 50px;
+    }
+
+    .produkt-container {
+        margin-top: 10px;
+    }
+}
+
+/* O-NAS.HTML FOR VERSION WITH MAX-WIDTH: 390PX */
+
+@media only screen and (max-width: 390px) {
+    /* O-NAS.HTML */
+    .o-nas-container {
+        margin-top: 50px;
+        padding: 10px;
+    }
+
+    .o-nas-container h1 {
+        font-size: 20px;
+    }
+
+    .o-nas-container h2 {
+        font-size: 18px;
+    }
+
+    .o-nas-container p {
+        font-size: 16px;
+        line-height: 30px;
+        padding-left: 0px;
+    }
+
+    /* NASE-PLATFORMA.HTML */
+
+    .o-nas-container .nase-platforma p {
+        padding-left: 0px;
+        font-size: 16px;
+    }
+
+    .o-nas-container .nase-platforma h3 {
+        font-size: 17px;
+        padding-left: 10px;
+    }
+
+    .o-nas-container .nase-platforma ul {
+        padding-left: 0;
+    }
+
+    .o-nas-container .nase-platforma ul li {
+        font-size: 16px;
+        padding-left: 20px;
+    }
+    
+}
+
+/*-------------------------------------------------------------------------------*/
+
+/* HEADER FOR VERSION WITH MAX-WIDTH: 700PX */
+
+@media only screen and (min-width: 391px) and (max-width: 700px) {
+
+    .header-main {
+        display: none;
+    }
+
+    .mobile-menu-btn {
+        display: flex;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 200;
+        background-color: transparent;
+    }
+
+    .mobile-menu-btn img {
+        height: 80%;
+        align-self: center;
+    }
+
+    .header-main {
+        max-width: 1000px;
+        height: 100vh;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .header-main nav {
+        width: 100%;
+        height: 90%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: stretch;
+    }
+
+    .header-main .logo {
+        height: 30%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-main .logo img {
+        height: 60%;
+        align-self: center;
+    }
+
+    .header-main ul {
+        height: 70%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        flex-wrap: wrap;
+        flex-direction: column;
+        display: flex;
+        justify-items: center;
+    }
+
+    .header-main ul li {
+        display: flex;
+        align-items: center;
+        height: 40px;
+        padding-top: 0;
+    }
+
+    .header-main ul li a:hover {
+        font-size: 110%;
+    }
+
+    .header-main .sm-links {
+        width: 100%;
+        height: 10%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .user-info {
+        width: 110px;
+        padding: 5px 0;
+        border-radius: 10px;
+        position: fixed;
+        bottom: 120px;
+        right: 160px;
+    }
+
+    .user-info button {
+        width: 100px;
+        margin-left: 5px;
+        margin-bottom: 0;
+    }
+
+    .header-main .sm-links .ins,
+    .header-main .sm-links .fb {
+        display: flex;
+    }
+
+    .sm-links #upload {
+        padding-top: 8px;
+    }
+}
+
+/* INDEX.HTML FOR VERSION WITH MAX-WIDTH: 700PX */
+
+@media only screen and (min-width: 391px) and (max-width: 700px) {
+    * {
+        max-width: 700px;
+        overflow-x: hidden;
+    }
+
+    /* HEADER */
+
+    .header-main ul li {
+        height: 50px;
+        padding-top: 0;
+    }
+
+    /* MAIN CONTAINER */
+
+    .main-container {
+        height: 600px;
+        margin-top: 50px;
+        align-items: center;
+    }
+
+    .main-container img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .main-container p {
+        font-size: 16px;
+    }
+
+    .main-container button {
+        width: 300px;
+        height: 50px;
+        font-size: 14px;
+        padding: 5px;
+        margin: 5% 16%;
+        padding-top: 15px;
+    }
+
+    .main-container button:hover {
+        width: 305px;
+        height: 55px;
+        font-size: 15px;
+        padding: 5px;
+        margin: 5% 26%;
+        padding-top: 15px;
+    }
+
+    /* ZBOZI */
+
+    .obleceni .products,
+    .obuv .products,
+    .tasky-a-doplnky .products,
+    .bydleni .products,
+    .deti .products,
+    .zabava .products,
+    .mazlicci .products {
+        border: none;
+        border-radius: 20px;
+        margin-bottom: 20px;
+        margin-left: -10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .obleceni .products img,
+    .obuv .products img,
+    .tasky-a-doplnky .products img,
+    .bydleni .products img,
+    .deti .products img,
+    .zabava .products img,
+    .mazlicci .products img {
+        margin-left: 28px;
+    }
+
+    .obleceni .products p,
+    .obuv .products p,
+    .tasky-a-doplnky .products p,
+    .bydleni .products p,
+    .deti .products p,
+    .zabava .products p,
+    .mazlicci .products p {
+        margin-left: 30px;
+        font-size: 16px;
+    }
+
+    .obleceni .heart-before,
+    .obuv .heart-before,
+    .tasky-a-doplnky .heart-before,
+    .bydleni .heart-before,
+    .deti .heart-before,
+    .zabava .heart-before,
+    .mazlicci .heart-before {
+        margin-right: 10%;
+    }
+
+    .obleceni .heart-after,
+    .obuv .heart-after,
+    .tasky-a-doplnky .heart-after,
+    .bydleni .heart-after,
+    .deti .heart-after,
+    .zabava .heart-after,
+    .mazlicci .heart-after {
+        margin-right: 10%;
+    }
+
+    footer .sm-links-footer {
+        display: none;
+    }
+}
+
+/* PRODUKTY (obleceni.html, ...) FOR VERSION WITH MAX-WIDTH: 700PX */
+
+@media only screen and (min-width: 391px) and (max-width: 700px) {
+    .container {
+        margin-top: 50px;
+    }
+
+    .produkt-container {
+        margin-top: 10px;
+    }
+}
+
+/* O-NAS.HTML AND NASE-PLATFORMA.HTML FOR VERSION WITH MAX-WIDTH: 700PX */
+
+@media only screen and (min-width: 391px) and (max-width: 700px) {
+    .o-nas-container {
+        margin-top: 50px;
+        padding: 10px;
+    }
+
+    .o-nas-container h1 {
+        font-size: 20px;
+    }
+
+    .o-nas-container h2 {
+        font-size: 20px;
+    }
+
+    .o-nas-container p {
+        font-size: 18px;
+        line-height: 30px;
+        padding-left: 0px;
+    }
+
+    /* NASE-PLATFORMA.HTML */
+
+    .o-nas-container .nase-platforma p {
+        padding-left: 0px;
+        font-size: 18px;
+    }
+
+    .o-nas-container .nase-platforma h3 {
+        font-size: 19px;
+        padding-left: 10px;
+    }
+
+    .o-nas-container .nase-platforma ul {
+        padding-left: 0;
+    }
+
+    .o-nas-container .nase-platforma ul li {
+        font-size: 18px;
+        padding-left: 20px;
+    }
+}
+
+/*-------------------------------------------------------------------------------*/
+
+/* HEADER FOR VERSION WITH MAX-WIDTH 1000PX */
+
+@media only screen and (min-width: 701px) and (max-width: 1000px) {
+
+    * {
+        max-width: 1000px;
+        overflow-x: hidden;
+    }
+
+    .header-main {
+        display: none;
+    }
+
+    .mobile-menu-btn {
+        display: flex;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 200;
+        background-color: transparent;
+    }
+
+    .mobile-menu-btn img {
+        height: 80%;
+        align-self: center;
+    }
+
+    .header-main {
+        max-width: 1000px;
+        height: 100vh;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .header-main nav {
+        width: 100%;
+        height: 80vh;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: stretch;
+    }
+
+    .header-main .logo {
+        height: 30%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-main .logo img {
+        height: 60%;
+        align-self: center;
+    }
+
+    .header-main ul {
+        height: 70%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        flex-wrap: wrap;
+        flex-direction: column;
+        display: flex;
+        justify-items: center;
+    }
+
+    .header-main ul li {
+        display: flex;
+        align-items: center;
+        height: 50px;
+        padding-top: 0;
+    }
+
+    .header-main ul li a:hover {
+        font-size: 110%;
+    }
+
+    .header-main .sm-links {
+        width: 100%;
+        height: 20vh;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-main .sm-links .ins,
+    .header-main .sm-links .fb {
+        display: flex;
+    }
+
+    .sm-links #upload {
+        padding-top: 8px;
+    }
+}
+
+/* MAIN CONTAINER (index.html) FOR VERSION WITH MAX-WIDTH 1000PX */
+
+@media only screen and (min-width: 701px) and (max-width: 1000px) {
+
+    .main-container{
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+        height: 500px;
+    }
+
+    .main-container-div {
+        margin-top: 50px;
+    }
+
+    .main-container p {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+
+    .main-container button {
+        width: 300px;
+        padding: 20px 10px;
+        display: flex;
+    }
+
+    .main-container button:hover {
+        width: 310px;
+        font-size: 15px;
+        margin: 5% 29%;
+    }
+
+}
+
+/* SECTION ZBOŽÍ (index.html) FOR VERSION WITH MAX-WIDTH 1000PX */
+
+@media only screen and (min-width: 701px) and (max-width: 1000px) {
+
+    /* ZBOZI */
+
+    .obleceni .products,
+    .obuv .products,
+    .tasky-a-doplnky .products,
+    .bydleni .products,
+    .deti .products,
+    .zabava .products,
+    .mazlicci .products {
+        border: none;
+        border-radius: 20px;
+        margin-bottom: 30px;
+        margin-left: -10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .obleceni .products img,
+    .obuv .products img,
+    .tasky-a-doplnky .products img,
+    .bydleni .products img,
+    .deti .products img,
+    .zabava .products img,
+    .mazlicci .products img {
+        margin-left: 28px;
+    }
+
+    .obleceni .products p,
+    .obuv .products p,
+    .tasky-a-doplnky .products p,
+    .bydleni .products p,
+    .deti .products p,
+    .zabava .products p,
+    .mazlicci .products p {
+        margin-left: 30px;
+    }
+
+    .obleceni div,
+    .obuv div,
+    .tasky-a-doplnky div,
+    .bydleni div,
+    .deti div,
+    .zabava div,
+    .mazlicci div {
+        margin: 0 2%;
+    }
+
+    .obleceni a,
+    .obuv a,
+    .tasky-a-doplnky a,
+    .bydleni a,
+    .deti a,
+    .zabava a,
+    .mazlicci a {
+        font-size: 16px;
+        width: 100%;
+        height: 50px;
+    }
+
+    .obleceni a:hover,
+    .obuv a:hover,
+    .tasky-a-doplnky a:hover,
+    .bydleni a:hover
+    .deti a:hover,
+    .zabava a:hover,
+    .mazlicci a:hover {
+        font-size: 18px;
+    }
+
+    .obleceni h2,
+    .obuv h2,
+    .tasky-a-doplnky h2,
+    .bydleni h2
+    .deti h2,
+    .zabava h2,
+    .mazlicci h2 {
+        width: fit-content;
+    }
+
+    footer .sm-links-footer {
+        display: none;
+    }
+}
+
+/* PRODUKTY (obleceni.html, ...) FOR VERSION WITH MAX-WIDTH: 1000PX*/
+
+@media only screen and (min-width: 701px) and (max-width: 1000px) {
+    .container {
+        margin-top: 50px;
+    }
+
+    .produkt-container {
+        margin-top: 10px;
+    }
+}
+
+/* O-NAS.HTML AND NASE-PLATFORMA.HTML FOR VERSION WITH MAX-WIDTH: 1000PX */
+
+@media only screen and (min-width: 701px) and (max-width: 1000px) {
+    .o-nas-container {
+        margin-top: 50px;
+        padding: 10px;
+    }
+
+    .o-nas-container h1 {
+        font-size: 20px;
+    }
+
+    .o-nas-container h2 {
+        font-size: 20px;
+    }
+
+    .o-nas-container p {
+        font-size: 18px;
+        line-height: 30px;
+        padding-left: 0px;
+    }
+
+    /* NASE-PLATFORMA.HTML */
+
+    .o-nas-container .nase-platforma p {
+        padding-left: 0px;
+        font-size: 18px;
+    }
+
+    .o-nas-container .nase-platforma h3 {
+        font-size: 19px;
+        padding-left: 10px;
+    }
+
+    .o-nas-container .nase-platforma ul {
+        padding-left: 0;
+    }
+
+    .o-nas-container .nase-platforma ul li {
+        font-size: 18px;
+        padding-left: 20px;
+    }
+}
+
+/*-------------------------------------------------------------------------------*/
+
+/* HEADER FOR VERSION WITH MAX-WIDTH 1300PX */
+
+@media only screen and (min-width: 1001px) and (max-width: 1300px) {
+    .header-main {
+        max-width: 1300px;
+        height: 100px;
+    }
+
+    .header-main nav {
+        margin-right: 0;
+    }
+
+    .header-main .logo {
+        height: 100px;
+        width: 150px;
+        padding-right: 20px;
+    }
+
+    .header-main .logo img {
+        height: 80px;
+        padding-top: 5px;
+        align-self: center;
+        cursor: pointer;
+    }
+
+    .header-main ul {
+        width: 1000px;
+        margin-left: 10px;
+    }
+
+    .header-main ul li {
+        align-items: center;
+        max-width: 100px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .header-main ul li a {
+        padding: 0 10px;
+    }
+
+    .header-main ul li a:hover {
+        font-size: 110%;
+    }
+
+    .header-main .sm-links {
+        margin-left: 0;
+    }
+
+    .header-main .sm-links .ins,
+    .header-main .sm-links .fb {
+        display: none;
+    }
+
+    .user-info {
+        position: fixed;
+        z-index: 100;
+        margin-right: 16%;
+    }
+}
+
+/* INDEX.HTML FOR VERSION WITH MAX-WIDTH: 1300PX */
+
+@media only screen and (min-width: 1001px) and (max-width: 1300px) {
+    * {
+        max-width: 1300px;
+        overflow-x: hidden;
+    }
+
+    .main-container-div {
+        width: 800px;
+    }
+
+    .main-container p {
+        max-width: 100%;
+        font-size: 20px;
+    }
+
+    .main-container button {
+        width: 300px;
+        height: 50px;
+        font-size: 14px;
+        padding: 5px;
+        margin: 5% 26%;
+        padding-top: 15px;
+    }
+
+    .obleceni,
+    .obuv,
+    .tasky-a-doplnky,
+    .bydleni,
+    .deti,
+    .zabava,
+    .mazlicci {
+        padding: 20px 0;
+    }
+
+    .obleceni a,
+    .obuv a,
+    .tasky-a-doplnky a,
+    .bydleni a,
+    .deti a,
+    .zabava a,
+    .mazlicci a {
+        margin-left: 20px;
+    }
+
+    .obleceni .products,
+    .obuv .products,
+    .tasky-a-doplnky .products,
+    .bydleni .products,
+    .deti .products,
+    .zabava .products,
+    .mazlicci .products {
+        border: none;
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        margin-bottom: 10px;
+    }
+
+    .obleceni .products img,
+    .obuv .products img,
+    .tasky-a-doplnky .products img,
+    .bydleni .products img,
+    .deti .products img,
+    .zabava .products img,
+    .mazlicci .products img {
+        margin-left: 28px;
+    }
+
+    .obleceni .products p,
+    .obuv .products p,
+    .tasky-a-doplnky .products p,
+    .bydleni .products p,
+    .deti .products p,
+    .zabava .products p,
+    .mazlicci .products p {
+        margin-left: 30px;
+        font-size: 16px;
+    }
+
+    .obleceni .heart-before,
+    .obuv .heart-before,
+    .tasky-a-doplnky .heart-before,
+    .bydleni .heart-before,
+    .deti .heart-before,
+    .zabava .heart-before,
+    .mazlicci .heart-before {
+        margin-right: 10%;
+    }
+
+    .obleceni .heart-after,
+    .obuv .heart-after,
+    .tasky-a-doplnky .heart-after,
+    .bydleni .heart-after,
+    .deti .heart-after,
+    .zabava .heart-after,
+    .mazlicci .heart-after {
+        margin-right: 10%;
+    }
+
+    footer .sm-links-footer {
+        display: none;
+    }
+
+    .user-info {
+        width: 200px;
+        height: 120px;
+        padding-top: 10px;
+        padding: 10px 5px 5px 5px;
+        position: fixed;
+        top: 100px;
+        right: -190px;
+    }
+}
+
+/* PRODUKTY (obleceni.html, ...) FOR VERSION WITH MAX-WIDTH: 1300PX */
+
+@media only screen and (min-width: 1001px) and (max-width: 1300px) {
+    .produkt-container {
+        margin-top: 10px;
+    }
+}
+
+/* O-NAS.HTML AND NASE-PLATFORMA.HTML FOR VERSION WITH MAX-WIDTH: 1300PX */
+
+@media only screen and (min-width: 1001px) and (max-width: 1300px) {
+    /* O-NAS.HTML */
+    .o-nas-container h1 {
+        font-size: 20px;
+    }
+
+    .o-nas-container h2 {
+        font-size: 18px;
+    }
+
+    .o-nas-container p {
+        font-size: 16px;
+        line-height: 30px;
+        padding-left: 10px;
+    }
+    /* NASE-PLATFORMA.HTML */
+
+    .o-nas-container .nase-platforma p {
+        padding-left: 10px;
+        font-size: 16px;
+    }
+
+    .o-nas-container .nase-platforma h3 {
+        font-size: 17px;
+        padding-left: 20px;
+    }
+
+    .o-nas-container .nase-platforma ul {
+        padding-left: 0;
+    }
+
+    .o-nas-container .nase-platforma ul li {
+        font-size: 17px;
+        padding-left: 25px;
+    }
+}
+
+/*-------------------------------------------------------------------------------*/
+
+/* HEADER FOR VERSION WITH MAX-WIDTH: 1600PX */
+
+@media only screen and (min-width: 1301px) and (max-width: 1600px) {
+
+    .header-main {
+        max-width: 1600px;
+    }
+
+    .header-main nav {
+        width: fit-content;
+    }
+
+    .header-main ul li a {
+        padding: 0 10px;
+    }
+
+    .header-main .sm-links {
+        margin-left: 0;
+    }
+
+    .header-main .sm-links .ins,
+    .header-main .sm-links .fb {
+        display: none;
+    }
+
+    .user-info {
+        position: fixed;
+        z-index: 100;
+        margin-right: 16%;
+    }
+
+}
+

@@ -1,0 +1,120 @@
+/* PRODUCT CONTAINER */
+.container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 150px;
+}
+
+.produkt-container {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.produkt-container .produkt-img {
+    display: flex;
+    justify-content: center;
+}
+
+.produkt-container .produkt {
+    /* max-width: 210px;
+    max-height: 315px; */
+    margin: 10px 45px;
+}
+
+.produkt-container .produkt-popis {
+    width: 70%;
+    margin-left: 15%;
+    padding: 10px 0;
+}
+
+
+.produkt-container a {
+    width: 100%;
+    height: fit-content;
+    font-size: 18px;
+    font-family: "Space Grotesk";
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.produkt-container a:hover {
+    font-size: 19px;
+    color: rgb(145, 63, 145);
+}
+
+/* HEART OF LIKE*/
+
+.container .heart-before {
+    display: flex;
+    float: right;
+    width: 20px;
+}
+
+.container .heart-before:hover {
+    width: 25px;
+}
+
+.container .heart-after {
+    display: none;
+    float: right;
+    width: 20px;
+}
+
+.container .heart-after:hover {
+    width: 25px;
+}
+
+/* USER UPDATE */
+
+.container .user-update {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+    margin-left: 45px;
+}
+
+.container .user-update img {
+    width: 25px;
+    height: 25px;
+    margin-bottom: 5px;
+}
+
+.container .user-update p {
+    margin-left: 5px;
+}
+
+/* PAGE CONTAINER */
+
+.page-container {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.page-container span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 15px;
+    margin-right: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.page-container a {
+    text-decoration: none;
+    color: black;
+}

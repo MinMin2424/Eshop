@@ -1,0 +1,515 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: "Space Grotesk";
+}
+
+.header-main {
+    width: 100%;
+    padding: 0 2%;
+    height: 100px;
+    background-color: #f1d1fa;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 4px;
+    z-index: 100;
+}
+
+/* USER INFO BUTTON */
+
+.user-info {
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 100px;
+    display: none;
+    padding: 20px;
+    border: 5px solid #e8b0f8;
+    border-radius: 20px;
+    position: fixed;
+    z-index: 100;
+    right: 80px;
+    margin-top: 120px;
+}
+
+.user-info div {
+    width: 100%;
+    justify-content: center;
+}
+
+.user-info a {
+    text-decoration: none;
+}
+
+.user-info button {
+    width: 180px;
+    padding: 10px;
+    border: 1px solid rgb(218, 97, 218);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    background-color: rgb(255, 235, 255);
+    text-transform: uppercase;
+    font-family: "Space Grotesk";
+}
+
+.user-info button:hover {
+    background-color: #f4e0fa;
+}
+
+.container {
+    width: 80%;
+    height: fit-content;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* PRODUKT IMG*/
+
+.container .produkt-img {
+    padding: 20px;
+}
+
+.container .produkt-img img {
+    max-width: 300px;
+    max-height: 450px;
+}
+
+/* PRODUKT INFORMACE */
+
+.container .produkt-informace {
+    width: 900px;
+    height: fit-content;
+}
+
+.container .user-update {
+    display: flex;
+    height: fit-content;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.container .user-update .user {
+    display: flex;
+}
+
+.container .user-update .user img {
+    width: 25px;
+    height: 25px;
+    margin-bottom: 5px;
+}
+
+.container .user-update .user p {
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.container .user-update .prodani-btn button {
+    width: fit-content;
+    padding: 20px;
+    background-color: transparent;
+    border: 1px solid #c0bfbf;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: "Space Grotesk";
+}
+
+.prodani-btn .edit-product a {
+    text-decoration: none;
+    color: black;
+}
+
+.prodani-btn .edit-product a:hover {
+    text-decoration: underline;
+}
+
+.container .informace h2 {
+    margin-bottom: 20px;
+}
+
+.container .informace h3,
+.container .kontaktni-udaje h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container .informace p,
+.container .kontaktni-udaje p {
+    margin-left: 20px;
+    line-height: 40px;
+}
+
+/* HEADER FOR VERSION MAX-WIDTH: 390PX */
+
+@media only screen and (max-width: 390px) {
+
+    .header-main {
+        display: none;
+    }
+
+    .mobile-menu-btn {
+        display: flex;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 200;
+        background-color: transparent;
+    }
+
+    .mobile-menu-btn img {
+        height: 80%;
+        align-self: center;
+    }
+
+    .header-main {
+        max-width: 1000px;
+        height: 100vh;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        justify-content: flex-start;
+    }
+
+    .header-main nav {
+        width: 100%;
+        height: 80vh;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: stretch;
+    }
+
+    .header-main .logo {
+        height: 30%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-main .logo img {
+        height: 60%;
+        align-self: center;
+    }
+
+    .header-main ul {
+        height: 70%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        flex-wrap: wrap;
+        flex-direction: column;
+        display: flex;
+        justify-items: center;
+    }
+
+    .header-main ul li {
+        display: flex;
+        align-items: center;
+        padding-top: 0px;
+    }
+
+    .header-main .sm-links {
+        width: 100%;
+        height: 20vh;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* PRODUKTY ZVLÁŠŤ FOR VERSION MAX-WIDTH 390PX */
+
+@media only screen and (max-width: 390px) {
+    .container {
+        max-width: 800px;
+        align-items: center;
+        display: block;
+        margin-top: 100px;
+    }
+
+    .container .produkt-img {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 50px;
+        padding-left: 0;
+    }
+
+    .container .produkt-img img {
+        width: 50%;
+    }
+
+    .container .produkt-informace {
+        width: 100%;
+    }
+
+    .container .user-update {
+        display: block;
+    }
+
+    .container .user-update .user {
+        margin-bottom: 10px;
+    }
+
+    .container .user-update .prodani-btn button {
+        padding: 10px;
+        font-size: 15px;
+    }
+}
+
+/* HEADER FOR VERSION MAX-WIDTH: 700PX */
+
+@media only screen and (min-width: 391px) and (max-width: 700px) {
+
+    .header-main {
+        display: none;
+    }
+
+    .mobile-menu-btn {
+        display: flex;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 200;
+        background-color: transparent;
+    }
+
+    .mobile-menu-btn img {
+        height: 80%;
+        align-self: center;
+    }
+
+    .header-main {
+        max-width: 1000px;
+        height: 100vh;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        justify-content: flex-start;
+    }
+
+    .header-main nav {
+        width: 100%;
+        height: 80vh;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: stretch;
+    }
+
+    .header-main .logo {
+        height: 30%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-main .logo img {
+        height: 60%;
+        align-self: center;
+    }
+
+    .header-main ul {
+        height: 70%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        flex-wrap: wrap;
+        flex-direction: column;
+        display: flex;
+        justify-items: center;
+    }
+
+    .header-main ul li {
+        display: flex;
+        align-items: center;
+        padding-top: 0px;
+    }
+
+    .header-main .sm-links {
+        width: 100%;
+        height: 20vh;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* PRODUKTY ZVLÁŠŤ FOR VERSION MAX-WIDTH 700PX */
+
+@media only screen and (min-width: 391px) and (max-width: 700px) {
+    .container {
+        max-width: 800px;
+        align-items: center;
+        display: block;
+        margin-top: 100px;
+    }
+
+    .container .produkt-img {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 50px;
+        padding-left: 0;
+    }
+
+    .container .produkt-img img {
+        width: 50%;
+    }
+
+    .container .produkt-informace {
+        width: 100%;
+    }
+    
+    .container .user-update {
+        display: block;
+    }
+
+    .container .user-update .user {
+        margin-bottom: 10px;
+    }
+
+    .container .user-update .prodani-btn button {
+        padding: 10px;
+        font-size: 15px;
+    }
+}
+
+/* HEADER FOR VERSION MAX-WIDTH: 1000PX */
+
+@media only screen and (min-width: 701px) and (max-width: 1000px) {
+
+    .header-main {
+        display: none;
+    }
+
+    .mobile-menu-btn {
+        display: flex;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 200;
+        background-color: transparent;
+    }
+
+    .mobile-menu-btn img {
+        height: 80%;
+        align-self: center;
+    }
+
+    .header-main {
+        max-width: 1000px;
+        height: 100vh;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        justify-content: flex-start;
+    }
+
+    .header-main nav {
+        width: 100%;
+        height: 80vh;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: stretch;
+    }
+
+    .header-main .logo {
+        height: 30%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-main .logo img {
+        height: 60%;
+        align-self: center;
+    }
+
+    .header-main ul {
+        height: 70%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        flex-wrap: wrap;
+        flex-direction: column;
+        display: flex;
+        justify-items: center;
+    }
+
+    .header-main ul li {
+        display: flex;
+        align-items: center;
+        padding-top: 0px;
+    }
+
+    .header-main .sm-links {
+        width: 100%;
+        height: 20vh;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* PRODUKTY ZVLÁŠŤ FOR VERSION MAX-WIDTH 1000PX */
+
+@media only screen and (min-width: 701px) and (max-width: 1000px) {
+    .container {
+        max-width: 800px;
+        align-items: center;
+        display: block;
+        margin-top: 100px;
+    }
+
+    .container .produkt-img {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 50px;
+        padding-left: 0;
+    }
+
+    .container .produkt-img img {
+        width: 50%;
+    }
+
+    .container .produkt-informace {
+        width: 100%;
+    }
+
+    .container .user-update .prodani-btn button {
+        padding: 10px;
+        font-size: 15px;
+    }
+}

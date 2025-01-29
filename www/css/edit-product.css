@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk";
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f4e0fa;
+}
+
+/* HEADER FORM */
+
+.header-main-form {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+}
+
+.header-main-form .logo-form img {
+    cursor: pointer;
+}
+
+/* INPUT FORM*/
+
+.container-form {
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    margin-top: 150px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.container-form header {
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+    text-align: center;
+}
+
+.container-form .edit-product {
+    margin-top: 30px;
+}
+
+.edit-product .input-box {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.input-box label {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.edit-product :where(.input-box input) {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.edit-product .input-box input:focus {
+    background-color: #f6f0f8;
+}
+
+.edit-product .input-box {
+    position: relative;
+}
+
+.edit-product input {
+    accent-color: #ebb5fc;
+}
+
+.input-box textarea {
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 15px;
+    width: 100%;
+    height: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+}
+
+.edit-product .submit {
+    height: 55px;
+    width: 100%;
+    background-color: #f4e0fa;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    margin-top: 30px;
+    cursor: pointer;
+    font-weight: 400;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.form-registration .submit:hover {
+    background-color: #ebb5fc;
+}
+
+/* ----- CUSTOM SCROLLBAR ----- */
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #efc9fa;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#642bff, #ff22e6);
+    border-radius: 10px;
+}
